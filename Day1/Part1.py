@@ -1,6 +1,6 @@
 start = 50
 count = 0
-with open("input.txt", "r") as f:
+with open("Day1/input.txt", "r") as f:
     for line in f:
         rotation, amount = line[0], int(line[1:])
         amount = amount if rotation == 'R' else -amount
